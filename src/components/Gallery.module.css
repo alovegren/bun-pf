@@ -1,0 +1,40 @@
+/* Styles extracted from legacy.css for Gallery and related layouts */
+
+.flexcontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: stretch;
+    align-self: flex-end;
+}
+
+.left {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    margin: 0% 3% 0% 0%;
+}
+
+.right {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.galleryColumn {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    margin: 0% 3% 0% 0%;
+}
+
+.galleryColumnLast {
+    margin-right: 0;
+}

@@ -1,0 +1,18 @@
+/* Styles extracted from legacy.css for About page */
+
+.cameo {
+    width: 20vw;
+    height: auto;
+    display: block;
+}
+
+.mainAbout {
+    width: 80vw;
+}
+
+.flexAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}

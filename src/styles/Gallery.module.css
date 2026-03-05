@@ -1,0 +1,93 @@
+/* Styles extracted from legacy.css for Gallery and related layouts */
+
+.flexcontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: stretch;
+    align-self: flex-end;
+}
+
+.left {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    margin: 0% 3% 0% 0%;
+}
+
+.right {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.galleryColumn {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    margin: 0% 3% 0% 0%;
+}
+
+.galleryColumnLast {
+    margin-right: 0;
+}
+
+/* Buttons / images */
+.galleryItemButton {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.galleryItemButton:hover {
+    opacity: 0.9;
+}
+
+.galleryItemButton:focus,
+.galleryItemButton:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.galleryItemButtonImg {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 2% 0;
+    border: none;
+}
+
+@media only screen and (max-width: 850px) {
+    .left, .right {
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .flexcontainer {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .galleryColumn:nth-child(n+3) {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1100px) {
+    .galleryColumn:nth-child(4) {
+        display: none;
+    }
+}

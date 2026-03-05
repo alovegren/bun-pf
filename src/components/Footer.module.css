@@ -1,0 +1,22 @@
+/* Footer component styles */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-family: "Raleway";
+  color: #f75180;
+  padding: 0 0 2% 0;
+  font-size: 0.75em;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.footer p {
+  text-align: center;
+  margin: 0 auto;
+  float: none;
+  clear: both;
+  width: 100%;
+}
