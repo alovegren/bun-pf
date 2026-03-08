@@ -4,19 +4,19 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import Illustration from './components/Illustration'
 import Printmaking from './components/Printmaking'
-import About from './components/About'
 
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <Navigation />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/illustration" element={<Illustration />} />
-          <Route path="/printmaking" element={<Printmaking />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
+        <main style={{ paddingTop: '6.5rem', flex: 1 }}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/illustration" element={<Illustration />} />
+            <Route path="/printmaking" element={<Printmaking />} />
+          </Routes>
+        </main>
         <Footer />
       </div>
     </BrowserRouter>

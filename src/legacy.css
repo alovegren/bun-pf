@@ -84,10 +84,12 @@ li{
 /* ----------
     Birditup
    ---------- */
-#birditup{
-    height: auto;
-    float: right;
-    margin-top: 2rem;
+#birditup {
+    height: 60vh;
+    width: auto;
+    display: block;
+    margin: 2rem auto;
+    object-fit: contain;
 }
 /* -------
     Video
@@ -194,58 +196,59 @@ title{
 /* ---------------
     Media Queries
    --------------- */
-@media only screen and (max-width: 850px){
 
-.left{
+/* Tablet and smaller screens */
+@media only screen and (max-width: 850px) {
+  .left {
     height: auto;
     display: block;
     margin: auto;    
-}
+  }
 
-.right{
+  .right {
     height: auto;
     display: block;
     margin: auto;
-}
+  }
 
-.flexcontainer{
+  .flexcontainer {
     display: block;
-}
+  }
 
-
-img.signature {
+  img.signature {
     max-width: 20vw;
     height: auto;
+  }
 }
 
-/* ---------------
-    Bird it Up MQ
-   --------------- */
-#birditup{
-    height: auto;
-    float: right;
-}
+/* Medium screens - adjust hero image */
+@media only screen and (max-width: 1024px) {
+  #birditup {
+    height: 50vh;
+    width: auto;
+  }
 }
 
-@media only screen and (max-width: 400px){
+/* Mobile screens */
+@media only screen and (max-width: 400px) {
   /* Mobile: stack the header items, show the logo, hide the bird image */
-  .site-header .header-inner{
+  .site-header .header-inner {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
   }
 
-  .site-header .top-nav ul{
+  .site-header .top-nav ul {
     flex-direction: column;
     gap: 0.5rem;
     margin: 0;
   }
 
-  nav{
+  nav {
     text-align: center;
   }
 
-  .navicon{
+  .navicon {
     margin: auto;
   }
 
@@ -262,16 +265,18 @@ img.signature {
   }
 
   /* Keep header in normal flow on mobile (not fixed) */
-  header{
+  header {
     position: static;
     width: 100%;
     padding: 1rem 3% 0 3%;
     margin: 0;
   }
 
-  /* Hide the decorative bird to avoid collisions on small screens */
-  #birditup{
-    display: none;
+  /* Display bird image at smaller viewport height on mobile */
+  #birditup {
+    height: 60vh;
+    width: auto;
+    margin: 1rem auto;
   }
 }
 /* -------
