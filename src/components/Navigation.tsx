@@ -63,7 +63,6 @@ const Navigation: React.FC = () => {
           <ul>
             <li><Link to="/illustration" onClick={closeMenu}>Illustration</Link></li>
             <li><Link to="/printmaking" onClick={closeMenu}>Printmaking</Link></li>
-            <li><Link to="/about" onClick={closeMenu}>About</Link></li>
           </ul>
         </nav>
       </div>

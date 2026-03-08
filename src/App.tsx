@@ -4,7 +4,6 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import Illustration from './components/Illustration'
 import Printmaking from './components/Printmaking'
-import About from './components/About'
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/illustration" element={<Illustration />} />
             <Route path="/printmaking" element={<Printmaking />} />
-            <Route path="/about" element={<About />} />
           </Routes>
         </main>
         <Footer />

@@ -6,6 +6,10 @@
   color-scheme: light;
   color: #213547;
   background-color: #ffffff;
+  
+  /* Brand Colors */
+  --color-primary: #744b6d;
+  --color-accent: #8ce5b8;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,11 +19,11 @@
 
 a {
   font-weight: 500;
-  color: #f75180;
+  color: var(--color-primary);
   text-decoration: inherit;
 }
 a:hover {
-  color: #8ce5b8;
+  color: var(--color-accent);
 }
 
 body {
