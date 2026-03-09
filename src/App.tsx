@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
         <Navigation />
-        <main style={{ paddingTop: '6.5rem', flex: 1 }}>
+        <main role="main">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/illustration" element={<Illustration />} />

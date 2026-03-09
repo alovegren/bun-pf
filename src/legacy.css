@@ -20,8 +20,8 @@ body {
     Title
    -------- */
 h1{
-    margin: 10% 3%;
-    padding: 3%;
+    margin: 1.5rem 3%;
+    padding: 0;
 }
 
 img.signature {

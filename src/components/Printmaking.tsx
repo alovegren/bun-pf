@@ -55,9 +55,7 @@ const Printmaking: React.FC = () => {
   ]
 
   return (
-    <main role="main">
-      <Gallery items={printItems} />
-    </main>
+    <Gallery items={printItems} />
   )
 }
 
