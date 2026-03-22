@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Quando');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:bold');
+
+/* Global reset */
+body, div, h1, h2, h3, h4, h5, h6, p, a, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -36,6 +48,38 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  margin: 1.5rem 3%;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 2% 0;
+}
+
+/* Hero image (birditup) */
+#birditup {
+  height: 60vh;
+  width: auto;
+  display: block;
+  margin: 2rem auto;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 1024px) {
+  #birditup {
+    height: 50vh;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #birditup {
+    height: 60vh;
+    width: auto;
+    margin: 1rem auto;
+  }
 }
 
 button {

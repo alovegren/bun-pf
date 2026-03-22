@@ -20,8 +20,8 @@ body {
     Title
    -------- */
 h1{
-    margin: 10% 3%;
-    padding: 3%;
+    margin: 1.5rem 3%;
+    padding: 0;
 }
 
 img.signature {
@@ -120,10 +120,9 @@ iframe {
     Flexbox Gallery
    ---------------- */
 main{
-    margin: 3% 0%; 
+    margin: 2% 0%; 
     width: auto;
     float: none;
-    padding-top: 6rem; /* reserve space for fixed header */
 }
 .flexcontainer{
     display: flex;

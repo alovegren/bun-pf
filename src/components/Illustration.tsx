@@ -49,9 +49,7 @@ const Illustration: React.FC = () => {
   ]
 
   return (
-    <main role="main">
-      <Gallery items={illustrationItems} />
-    </main>
+    <Gallery items={illustrationItems} />
   )
 }
 

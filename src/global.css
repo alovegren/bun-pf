@@ -1,0 +1,16 @@
+/* Global utility styles and overrides */
+
+/* List reset */
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* Utility classes for future use */
