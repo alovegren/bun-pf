@@ -11,6 +11,18 @@ const Illustration: React.FC = () => {
       title: 'The scenery was exquisite...'
     },
     {
+      id: 'mushroomhunters',
+      fullImageSrc: '/img/illustration/mushroom-hunters-web.jpg',
+      thumbImageSrc: '/img/illustration/mushroom-hunters-thumb.jpg',
+      title: 'The Mushroom Hunters'
+    },
+    {
+      id: 'thegoodmorrow',
+      fullImageSrc: '/img/illustration/the-good-morrow-web.jpg',
+      thumbImageSrc: '/img/illustration/the-good-morrow-thumb.jpg',
+      title: 'Wildflower'
+    },
+    {
       id: 'sierraclub',
       fullImageSrc: '/img/illustration/sierraclub.jpg',
       thumbImageSrc: '/img/illustration/sierraclub.jpg',
@@ -40,12 +52,12 @@ const Illustration: React.FC = () => {
       thumbImageSrc: '/img/illustration/squashleaves.png',
       title: 'Squash Leaves'
     },
-    {
-      id: 'handclouds',
-      fullImageSrc: '/img/illustration/handclouds_Resize.jpg',
-      thumbImageSrc: '/img/illustration/handclouds_pre.jpg',
-      title: 'Untitled (Clouds)'
-    }
+    // {
+    //   id: 'handclouds',
+    //   fullImageSrc: '/img/illustration/handclouds_Resize.jpg',
+    //   thumbImageSrc: '/img/illustration/handclouds_pre.jpg',
+    //   title: 'Untitled (Clouds)'
+    // }
   ]
 
   return (
