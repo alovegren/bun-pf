@@ -61,6 +61,7 @@ const Navigation: React.FC = () => {
           className={`${styles['top-nav']} ${isMenuOpen ? styles['menu-open'] : ''}`}
         >
           <ul>
+            <li><Link to="/about" onClick={closeMenu}>About</Link></li>
             <li><Link to="/illustration" onClick={closeMenu}>Illustration</Link></li>
             <li><Link to="/printmaking" onClick={closeMenu}>Printmaking</Link></li>
           </ul>
